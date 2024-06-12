@@ -21,4 +21,4 @@ aI = ((6378+185)+(6378+ARI))/2
 aF = ((6378+185)+(6378+ARF))/2
 
 
-print("The change in apoapsis from " + str(ARI) + " km to " + str(ARF) + " km requries an additional dV of " + str(delVreq(mu,rF,rI,aF,aI)) + " km/s!")
+print("The change in apoapsis from " + str(ARI) + " km to " + str(ARF) + " km requries an additional dV of " + str(round(delVreq(mu,rF,rI,aF,aI),7)) + " km/s!")
