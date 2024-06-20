@@ -60,8 +60,8 @@ def delVreq(ApogeeChange):
     rF = 6563
     rI = 6563
 
-    aI = ((6378+185)+(6378+185))/2
-    aF = ((6378+185)+(6378+ApogeeChange))/2
+    aI = ((6378+185)+(6378+ApogeeChange))/2
+    aF = ((6378+185)+(6378+410000))/2
     
     delV = visviva(mu,rF,aF) - visviva(mu,rI,aI)
 
