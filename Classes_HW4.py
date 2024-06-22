@@ -90,7 +90,7 @@ class TankSet:
         pctUllage =   1.1  # Extra ullage room as a percentage of tank volume
         aMax      =   50      # Maximum acceleration (m/s2)
         pctFudge  =   1.2      # Fudge factor for welds, etc
-        fosMat    =   1.4      # factor of safety for material (nd)
+        fosMat    =   1.5      # factor of safety for material (nd)
         
         # Tank material switch case
         if strMatType=="Al2219":
